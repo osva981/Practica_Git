@@ -1,6 +1,7 @@
 print("SISTEMA DE REGISTRO DE ESTUDIANTES")
 print("1. Registrar estudiante")
 print("2. Consultar estudiantes")
+print("3. promedio de calificaciones ")
 print("3. Salir")
 
 estudiantes = []
@@ -20,4 +21,8 @@ def  consultar_estudiantes():
  for estudiante in estudiantes:
  print(estudiante)
 
+def promedio_de_calificaciones():
+    print("estudiantes registrados")
+    for estudiante in estudiantes:
+    print(estudiante)
  
